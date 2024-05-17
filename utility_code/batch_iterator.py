@@ -1,5 +1,6 @@
 import random
 import numpy as np 
+from wsidicom import WsiDicom
 from PIL import Image
 from tensorflow.keras.preprocessing.image import img_to_array
 from typing import Callable, List, Tuple
